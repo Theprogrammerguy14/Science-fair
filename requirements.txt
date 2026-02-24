@@ -1,0 +1,17 @@
+# DRONE AI — Python Dependencies (Raspberry Pi / Debian Trixie)
+# System packages (python3-lgpio, python3-spidev, python3-opencv)
+# are installed via apt in install.sh — not duplicated here.
+
+# AI / Vision
+numpy>=1.21
+ai-edge-litert>=1.0       # Google's TFLite runtime (Python 3.12+ compatible)
+Pillow>=9.0
+
+# GPS Parsing
+pynmea2>=1.19
+
+# Ground Station Dashboard
+flask>=2.3
+
+# Heatmap & Data
+matplotlib>=3.5
